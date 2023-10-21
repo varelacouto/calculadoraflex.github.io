@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Mochiy+Pop+One&family=Poppins:wght@400;500;700&family=Righteous&family=Shantell+Sans&family=Sigmar&family=Tilt+Warp&family=Titillium+Web:ital,wght@0,400;0,700;1,700&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="scripts.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>CALCULADORA FLEX</title>
+</head>
+<body>
+    <div class="container">       
+        <h1>O jeito mais econômico de abastecer seu carro</h1>
+        <img src="neutro.png" alt="calculadora flex" id="status">
+        <form name="frmFlex" class="frmFlex">
+            <input type="text" placeholder="Etanol" size="8" name="txtEtanol">
+            <input type="text" placeholder="Gasolina" size="8" name="txtGasolina">
+            <input type="button" value="Vantagem" onclick="calcular()">
+            <input type="reset" value="Limpar" onclick="resetar()">
+        </form>
+        <h3>Obs: O carro com ETANOL consome à mais 30% de combustivel do que um carro a GASOLINA. Vale mais a pena abastecer com ETANOL se o litro custar até 70% do valor do litro da GASOLINA</h3>
+        <div class="rodape">            
+            <h5>C3 Soluções Digitais</h5>
+            <h6>Desenvolvido por André Varela Couto</h6>
+        </div>
+    </div>
+</body>
+</html>

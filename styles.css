@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: #EEE9E9;
+ }
+
+ .container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+ }
+
+ h1 {
+    color: #065F46;
+    text-align: center;
+    padding: .8rem;
+    margin-bottom: .5rem;
+ }
+
+ .frmFlex {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+ }
+
+ h3 {
+    color: #065F46;
+    margin: 1rem 0;
+    text-align: justify;
+ }
+
+ .rodape {
+    color: #065F46;
+    text-align: center;
+    margin-top: 6rem;
+ }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+     }
+
+     h1 {
+        color: #065F46;
+        font-size: 2em;
+        margin-bottom: .1rem;
+        padding: .5rem;
+        text-align: center;  
+    }
+
+    h3 {
+        color: #065F46;
+        margin: auto 2rem;
+        padding: .5rem;
+        text-align: justify;
+    }
+
+    .frmFlex {
+        gap: .8rem;
+        margin-bottom: .5rem;
+    }
+
+    .rodape {
+        color: #065F46;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
